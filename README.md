@@ -34,6 +34,9 @@ open /etc/profile
 open ~/.profile
 ```
 
+### SSH keys
+- ...
+
 ### `homebrew`
 - TODO - how to install
 - packages installed
