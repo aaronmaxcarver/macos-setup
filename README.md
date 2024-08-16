@@ -1,10 +1,16 @@
 # macos-setup
 Notes of the diff between factory settings and daily driver apps and settings
 
-### Maintenance (~1st day of each month)
+## Maintenance
+### Routine (~1st day of each month)
 - Backup code
 - Backup Chrome bookmarks
 - Collect credentials into an encrypted drive and backup
+
+### Python 
+- global pip, virtual envs, ...
+
+## Setup
 
 ### Shell(s) and PATH
 - `zsh`
@@ -34,14 +40,29 @@ open ~/.profile
 - listing packages
 
 ### Python
-- system
-- homebrew
-- framework (downloads from python.org)
+- System python
+- XCode python
+- homebrew python
+- framework python (downloads from python.org)
+- pipenv
+
+### CLI tools
+- AWS CLI v2
+- MongoDB Atlas CLI
 
 ### Applications
-- Chrome
-- Docker
+- Docker Desktop
+- Google Chrome
+- MongoDB Compass
 - Ollama
+- PGAdmin
 - Postman
 - VS Code
 - Zoom
+
+### Data
+- Repos
+- Google Drive
+- Cold storage backup
+
+
