@@ -54,13 +54,19 @@ open ~/.profile
 - MongoDB Atlas CLI
 
 ### Applications
+- Cloudflare WARP
 - Docker Desktop
 - Google Chrome
+- Discord
 - MongoDB Compass
+- Mosaic + settings file
+- noTunes
 - Ollama
 - PGAdmin
 - Postman
-- VS Code
+- Scrivener
+- Slack
+- Visual Studio Code
 - Zoom
 
 ### Data
