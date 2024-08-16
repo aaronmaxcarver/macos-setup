@@ -1,6 +1,11 @@
 # macos-setup
 Notes of the diff between factory settings and daily driver apps and settings
 
+### Maintenance (~1st day of each month)
+- Backup code
+- Backup Chrome bookmarks
+- Collect credentials into an encrypted drive and backup
+
 ### Shell(s) and PATH
 - `zsh`
   - TODO - how to install
