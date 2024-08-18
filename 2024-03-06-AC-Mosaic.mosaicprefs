@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>2E1884B2-4B47-4041-BCBB-45892384B1C4</UUID>
+        <nextObjectID>156</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>1338</integer>
+                    <key>NSStoreModelVersionChecksumKey</key>
+                    <string>DNdtiwykKXcVuFQJB1L7EwO9WutnQqaA/wUvK9lGRaM=</string>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>ApplicationLayout</key>
+                        <data>
+		ZkKd1EDfdw50JArFjzvsPUOagTDHXa7TlTQYHmD1D6s=
+		</data>
+                        <key>Gutters</key>
+                        <data>
+		PSABew2BBLHRGpx9gUNbbfanXXjXLQVsesseL8qlKtw=
+		</data>
+                        <key>Notification</key>
+                        <data>
+		I35O/YGpeMZcYDQ+iZzsCmmkInuLBKBvZ5WPhg8B+PM=
+		</data>
+                        <key>Preferences</key>
+                        <data>
+		LaTe56H+LOIGN13M2jgU3DVUzljmVeOlE1uq1D+0YT4=
+		</data>
+                        <key>PreferencesBase</key>
+                        <data>
+		HPNPZr9ghbAHmFAH+QN5vMNeDeCP0WkLw6ZymNpugrk=
+		</data>
+                        <key>WindowLayout</key>
+                        <data>
+		e6BKqCSDE7llOYKxC9Q2prUF1rZ0L+loDPLCGNEEkrU=
+		</data>
+                        <key>WindowLayoutAdvanced</key>
+                        <data>
+		TUouVP6iBCpfFEDSO7fBBGvfBSXII6Hp+uyWJ71qOTQ=
+		</data>
+                        <key>WindowLayoutBase</key>
+                        <data>
+		Zj2MnE2pME5Q/lZo+1W+o8Kh74sj3wAELlo3IHq5xOc=
+		</data>
+                        <key>WindowLayoutBasic</key>
+                        <data>
+		uCHpzyuATaTYpW1eACXBSs3pLL49h/wsE7rEWKNeDSQ=
+		</data>
+                        <key>WindowLayoutGroup</key>
+                        <data>
+		WZQXfhJgqhgGIvXHWqghZDZ9oz/I5qozhD3n+jCjF9E=
+		</data>
+                        <key>WindowLayoutGroupMembership</key>
+                        <data>
+		PLSUnmW9KLwvdqGwig6M22jNuZXaWVAnD+uxEz8uqFM=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesDigest</key>
+                    <string>BYg1sXiy6NEly6Tp4yhoqHNHPVy7Znkxd1dJTgbrW3qFTFvvaqJR/M2kJ+NtKDVfoZtpVwBDbjkMYy1bz+9Sew==</string>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z102">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z109"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z103">
+        <attribute name="starty" type="int16">4</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">16</attribute>
+        <attribute name="layoutname" type="string">Bottom Half</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z116"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z150"></relationship>
+    </object>
+    <object type="GUTTERS" id="z104">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z105">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z121"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z106">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z111"></relationship>
+    </object>
+    <object type="GUTTERS" id="z107">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z108">
+        <attribute name="starty" type="int16">5</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">14</attribute>
+        <attribute name="layoutname" type="string">Small Bottom</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z149"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z154"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z109">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">4</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">7</attribute>
+        <attribute name="layoutpositionindex" type="int16">6</attribute>
+        <attribute name="layoutname" type="string">1/3, Right of Center</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z151"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z102"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z110">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z132"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z111">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">1</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">4</attribute>
+        <attribute name="layoutpositionindex" type="int16">5</attribute>
+        <attribute name="layoutname" type="string">1/3, Left of Center</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z104"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z106"></relationship>
+    </object>
+    <object type="GUTTERS" id="z112">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z113">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">GuttersQuickLayout</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z114">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z137"></relationship>
+    </object>
+    <object type="GUTTERS" id="z115">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z116">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z117">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z145"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z118">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">4</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">6</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">6</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">8</attribute>
+        <attribute name="layoutname" type="string">Right</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z156"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z153"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z119">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">4</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">15</attribute>
+        <attribute name="layoutname" type="string">Top Half</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z115"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z124"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUP" id="z120">
+        <attribute name="groupname" type="string">Dailies</attribute>
+        <attribute name="canedit" type="bool">1</attribute>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z130 z153 z129 z131 z135 z114 z110 z105 z117 z155 z125 z154 z124 z150 z106 z102"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z121">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">3</attribute>
+        <attribute name="layoutpositionindex" type="int16">11</attribute>
+        <attribute name="layoutname" type="string">Small Left</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z107"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z105"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z122">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">5</attribute>
+        <attribute name="layoutpositionindex" type="int16">9</attribute>
+        <attribute name="layoutname" type="string">Big Left</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z148"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z155"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUP" id="z123">
+        <attribute name="groupname" type="string">All Layouts</attribute>
+        <attribute name="canedit" type="bool">0</attribute>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z124">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z119"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z125">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z142"></relationship>
+    </object>
+    <object type="GUTTERS" id="z126">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z127">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z128">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z129">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z136"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z130">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z134"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z131">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z138"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z132">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">3</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">9</attribute>
+        <attribute name="gridresolutionx" type="int16">9</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">9</attribute>
+        <attribute name="endx" type="int16">6</attribute>
+        <attribute name="layoutpositionindex" type="int16">3</attribute>
+        <attribute name="layoutname" type="string">Middle Third</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z127"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z110"></relationship>
+    </object>
+    <object type="GUTTERS" id="z133">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z134">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">6</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">6</attribute>
+        <attribute name="endx" type="int16">4</attribute>
+        <attribute name="layoutpositionindex" type="int16">7</attribute>
+        <attribute name="layoutname" type="string">Left</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z147"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z130"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z135">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z141"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z136">
+        <attribute name="starty" type="int16">1</attribute>
+        <attribute name="startx" type="int16">1</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">7</attribute>
+        <attribute name="endx" type="int16">7</attribute>
+        <attribute name="layoutpositionindex" type="int16">1</attribute>
+        <attribute name="layoutname" type="string">Centre Large</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z126"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z129"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z137">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">6</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">9</attribute>
+        <attribute name="gridresolutionx" type="int16">9</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">9</attribute>
+        <attribute name="endx" type="int16">9</attribute>
+        <attribute name="layoutpositionindex" type="int16">4</attribute>
+        <attribute name="layoutname" type="string">Right Third</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z128"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z114"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z138">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">5</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">10</attribute>
+        <attribute name="layoutname" type="string">Small Right</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z139"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z131"></relationship>
+    </object>
+    <object type="GUTTERS" id="z139">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="PREFERENCES" id="z140">
+        <attribute name="touchbarshortcut" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGrCwwbHB0eHyAhIiNVJG51bGzTDQ4PEBUaV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OkERITFIACgAOABIAFpBYXGBmABoAHgAiACYAKXxAbY2hhcmFjdGVyc0lnbm9yaW5nTW9kaWZpZXJzWmNoYXJhY3RlcnNXa2V5Q29kZV1tb2RpZmllckZsYWdzUVRWXFUwMGNhEBESABoAANIkJSYnWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oyYoKVxOU0RpY3Rpb25hcnlYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAUQBTAF8AZQBsAHQAfwCGAIsAjQCPAJEAkwCYAJoAnACeAKAAogDAAMsA0wDhAOMA6gDsAPEA9gEBAQoBIAEkATEAAAAAAAACAQAAAAAAAAAqAAAAAAAAAAAAAAAAAAABOg==
+</attribute>
+        <attribute name="touchbarenabled" type="bool">0</attribute>
+        <attribute name="showquickpositions" type="bool">1</attribute>
+        <attribute name="showquicklayout" type="bool">1</attribute>
+        <attribute name="showlayoutwarnings" type="bool">1</attribute>
+        <attribute name="showlayoutnames" type="bool">1</attribute>
+        <attribute name="showkeyboardshortcut" type="bool">1</attribute>
+        <attribute name="showcapturewindow" type="bool">1</attribute>
+        <attribute name="showautolayout" type="bool">1</attribute>
+        <attribute name="shiftkeymode" type="int16">0</attribute>
+        <attribute name="remoteappserverenabled" type="bool">1</attribute>
+        <attribute name="remoteappgridresolutiony" type="int16">6</attribute>
+        <attribute name="remoteappgridresolutionx" type="int16">6</attribute>
+        <attribute name="remoteappgridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="quicklayoutshortcut" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGrCwwbHB0eHyAhIiNVJG51bGzTDQ4PEBUaV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OkERITFIACgAOABIAFpBYXGBmABoAHgAiACYAKXxAbY2hhcmFjdGVyc0lnbm9yaW5nTW9kaWZpZXJzWmNoYXJhY3RlcnNXa2V5Q29kZV1tb2RpZmllckZsYWdzUUxWXFUwMGQyECUSABoAANIkJSYnWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oyYoKVxOU0RpY3Rpb25hcnlYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAUQBTAF8AZQBsAHQAfwCGAIsAjQCPAJEAkwCYAJoAnACeAKAAogDAAMsA0wDhAOMA6gDsAPEA9gEBAQoBIAEkATEAAAAAAAACAQAAAAAAAAAqAAAAAAAAAAAAAAAAAAABOg==
+</attribute>
+        <attribute name="quicklayoutgridresolutiony" type="int16">8</attribute>
+        <attribute name="quicklayoutgridresolutionx" type="int16">8</attribute>
+        <attribute name="quicklayoutgridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="preferencestab" type="int16">6</attribute>
+        <attribute name="positioningextraguttermode" type="string">Pixel Value</attribute>
+        <attribute name="positioningextragutterexternal" type="int16">20</attribute>
+        <attribute name="positioningextragutterdefault" type="bool">1</attribute>
+        <attribute name="panelmoderowscreeny" type="float">0.8040974</attribute>
+        <attribute name="panelmodecolumnscreenx" type="float">0.5</attribute>
+        <attribute name="paneldisplaymodeclickandselect" type="string">row</attribute>
+        <attribute name="paneldisplaymode" type="string">docked</attribute>
+        <attribute name="menubaricon" type="string">Colour</attribute>
+        <attribute name="launchatlogin" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="dragmonitoringenabled" type="bool">1</attribute>
+        <attribute name="defaultdatacreated" type="bool">1</attribute>
+        <attribute name="clickandselectenabled" type="bool">0</attribute>
+        <attribute name="clickandselectautoclosemode" type="int16">0</attribute>
+        <attribute name="capturesound" type="bool">1</attribute>
+        <attribute name="captureextrapath" type="string">~/Desktop</attribute>
+        <attribute name="captureextraincludeshadow" type="bool">1</attribute>
+        <attribute name="captureextraformat" type="string">PNG</attribute>
+        <attribute name="automaticallycheckforupdates" type="bool">1</attribute>
+        <attribute name="autolayoutshortcut" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGrCwwbHB0eHyAhIiNVJG51bGzTDQ4PEBUaV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OkERITFIACgAOABIAFpBYXGBmABoAHgAiACYAKXxAbY2hhcmFjdGVyc0lnbm9yaW5nTW9kaWZpZXJzWmNoYXJhY3RlcnNXa2V5Q29kZV1tb2RpZmllckZsYWdzUUFWXFUwMGM1EAASABoAANIkJSYnWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oyYoKVxOU0RpY3Rpb25hcnlYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAUQBTAF8AZQBsAHQAfwCGAIsAjQCPAJEAkwCYAJoAnACeAKAAogDAAMsA0wDhAOMA6gDsAPEA9gEBAQoBIAEkATEAAAAAAAACAQAAAAAAAAAqAAAAAAAAAAAAAAAAAAABOg==
+</attribute>
+        <attribute name="autoaddgroupsfortouchbar" type="bool">1</attribute>
+        <attribute name="autoaddgroupsfordraganddrop" type="bool">1</attribute>
+        <attribute name="autoaddgroupsforclickandselect" type="bool">1</attribute>
+        <attribute name="autoaddgroups" type="bool">1</attribute>
+        <attribute name="activegrouptouchbar" type="string">x-coredata://98301901-4596-41EF-A6B9-771934ABA288/WindowLayoutGroup/p195</attribute>
+        <attribute name="activegroupclickandselect" type="string">x-coredata://98301901-4596-41EF-A6B9-771934ABA288/WindowLayoutGroup/p195</attribute>
+        <attribute name="activegroup" type="string">x-coredata://990A6DDF-9EE1-4C0B-A9B0-175FA2943793/WindowLayoutGroup/p127</attribute>
+        <attribute name="activationmode" type="int16">0</attribute>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z141">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">0</attribute>
+        <attribute name="gridresolutiony" type="int16">9</attribute>
+        <attribute name="gridresolutionx" type="int16">9</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">0</attribute>
+        <attribute name="endy" type="int16">9</attribute>
+        <attribute name="endx" type="int16">3</attribute>
+        <attribute name="layoutpositionindex" type="int16">2</attribute>
+        <attribute name="layoutname" type="string">Left Third</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z112"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z135"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z142">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">0</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">5</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">13</attribute>
+        <attribute name="layoutname" type="string">Big Top</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z143"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z125"></relationship>
+    </object>
+    <object type="GUTTERS" id="z143">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z144">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">GuttersRemoteApp</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTBASIC" id="z145">
+        <attribute name="starty" type="int16">0</attribute>
+        <attribute name="startx" type="int16">3</attribute>
+        <attribute name="gridusedefaults" type="bool">1</attribute>
+        <attribute name="gridresolutiony" type="int16">8</attribute>
+        <attribute name="gridresolutionx" type="int16">8</attribute>
+        <attribute name="gridmaintainaspectratio" type="bool">1</attribute>
+        <attribute name="endy" type="int16">8</attribute>
+        <attribute name="endx" type="int16">8</attribute>
+        <attribute name="layoutpositionindex" type="int16">12</attribute>
+        <attribute name="layoutname" type="string">Big Right</attribute>
+        <attribute name="layoutdisplayid" type="int64">0</attribute>
+        <attribute name="layoutdisplay" type="string">All Screens</attribute>
+        <relationship name="gutters" type="0/1" destination="GUTTERS" idrefs="z133"></relationship>
+        <relationship name="membership" type="0/0" destination="WINDOWLAYOUTGROUPMEMBERSHIP" idrefs="z117"></relationship>
+    </object>
+    <object type="GUTTERS" id="z146">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">0</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">GuttersPositioningExtra</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z147">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z148">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z149">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z150">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z103"></relationship>
+    </object>
+    <object type="GUTTERS" id="z151">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="GUTTERS" id="z152">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">0</attribute>
+        <attribute name="instanceidentifier" type="string">GuttersDefault</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">0</attribute>
+        <attribute name="gutterexternal" type="int16">0</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z153">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z118"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z154">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z108"></relationship>
+    </object>
+    <object type="WINDOWLAYOUTGROUPMEMBERSHIP" id="z155">
+        <relationship name="group" type="0/1" destination="WINDOWLAYOUTGROUP" idrefs="z120"></relationship>
+        <relationship name="layout" type="0/1" destination="WINDOWLAYOUT" idrefs="z122"></relationship>
+    </object>
+    <object type="GUTTERS" id="z156">
+        <attribute name="usedefaults" type="bool">1</attribute>
+        <attribute name="supportsinternalgutters" type="bool">1</attribute>
+        <attribute name="supportsdefaults" type="bool">1</attribute>
+        <attribute name="instanceidentifier" type="string">LayoutGutters</attribute>
+        <attribute name="guttermode" type="string">Pixel Value</attribute>
+        <attribute name="gutterinternal" type="int16">16</attribute>
+        <attribute name="gutterexternal" type="int16">32</attribute>
+        <attribute name="automaticinternal" type="bool">1</attribute>
+    </object>
+</database>
