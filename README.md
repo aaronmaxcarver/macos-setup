@@ -1,6 +1,8 @@
 # macos-setup
 Notes of the diff between factory settings and daily driver apps and settings
 
+- example video - https://www.youtube.com/watch?v=kIdiWut8eD8
+
 ## Maintenance
 ### Routine (~1st day of each month)
 - Backup code
