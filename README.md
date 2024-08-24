@@ -44,6 +44,14 @@ open ~/.profile
 - packages installed
 - listing packages
 
+- casks
+```sh
+# Snowflake CLI - https://docs.snowflake.com/en/user-guide/snowsql-install-config
+brew install --cask snowflake-snowsql
+# Add this to .zshrc
+# alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
+```
+
 ### Python
 - System python
 - XCode python
