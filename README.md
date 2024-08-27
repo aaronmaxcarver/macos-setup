@@ -10,7 +10,7 @@ Notes of the diff between factory settings and daily driver apps and settings
 - Collect credentials into an encrypted drive and backup
 
 ### Python 
-- global pip, virtual envs, ...
+- uv for all things python management
 
 ## Setup
 
@@ -55,6 +55,7 @@ brew install --cask snowflake-snowsql
 ### Python
 - System python
 - XCode python
+- uv python
 - homebrew python
 - framework python (downloads from python.org)
 - pipenv
