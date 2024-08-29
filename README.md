@@ -36,7 +36,7 @@
 ```sh
 brew update
 ```
-3. install [brew formulae](https://formulae.brew.sh/)
+3. Install [brew formulae](https://formulae.brew.sh/)
 ```sh
 brew install \
   awscli \
@@ -45,7 +45,7 @@ brew install \
   uv \
   zsh
 ```
-4. install [brew casks](https://formulae.brew.sh/cask/)
+4. Install [brew casks](https://formulae.brew.sh/cask/)
 ```sh
 brew install --cask \
   cloudflare-warp \
