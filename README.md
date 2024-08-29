@@ -16,8 +16,8 @@ Notes of the diff between factory settings and daily driver apps and settings
   - Copy the new `.dmg` to secondary storage, e.g. Google Drive
   - Delete all plaintext credentials files
 
-### Python 
-- uv for all things python management
+- Mosaic
+
 
 ## Setup
 
@@ -49,6 +49,8 @@ open ~/.profile
   - GitHub - 
   - HuggingFace - 
 
+
+
 ### `homebrew`
 - TODO - how to install
 - packages installed
@@ -62,6 +64,12 @@ brew install --cask snowflake-snowsql
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
 ```
 
+### Programs
+- [zsh](https://ohmyz.sh/)
+
+
+- 
+
 ### Python
 - System python
 - XCode python
@@ -70,9 +78,10 @@ brew install --cask snowflake-snowsql
 - framework python (downloads from python.org)
 
 ### CLI tools
-- AWS CLI v2
-- MongoDB Atlas CLI
-- Quarto
+- [uv](https://docs.astral.sh/uv/)
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [MongoDB Atlas CLI](https://www.mongodb.com/docs/atlas/cli/current/install-atlas-cli/)
+- [Quarto](https://quarto.org/docs/get-started/)
 
 ### Applications
 - Cloudflare WARP
