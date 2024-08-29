@@ -98,8 +98,46 @@ open ~/.profile
   - GitHub - https://github.com/settings/keys
   - HuggingFace - https://huggingface.co/settings/keys
 
+### VS Code Settings
+- TODO 
+
 ### Python
-- TODO - setup for `uv`
+
+#### `uv` - manage packages and virtual environments
+- [Docs](https://docs.astral.sh/uv/)
+  - I now use `uv` and think it's the very best...not `conda` or `pipenv` or `poetry`, though I appreciated those in the past
+- Install the `homebrew` fomulae `uv` if it's not already installed (`brew install uv`)
+- Recommended: read through the `uv` docs to find instructions for your use case
+  - For managing a `venv` for a particular repo, see the [Projects](https://docs.astral.sh/uv/concepts/projects/#creating-projects) docs
+    - Basically - go to the repo's base directory and run `uv init`
+- `uv` uses a `pyproject.toml` file - here's the official [docs](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
+  - I found the docs to be overly verbose for basic usage. I don't know of a good brief intro
+- Basic `uv` commands:
+```sh
+uv add requests
+uv remove requests
+```
+
+#### Ruff - linting and formatting
+- [Docs](https://docs.astral.sh/ruff/)
+- VS Code Extension (`README`)[https://github.com/astral-sh/ruff-vscode/blob/main/README.md]
+- Turn on "Format on Save" using VS Code Settings
+- Common CLI commands
+```sh
+# lint
+ruff check
+ruff check --fix
+# format
+ruff format
+# sort imports
+ruff check --select I --fix
+```
+- Turn off/on in code using magic comments
+```py
+# fmt: on 
+# fmt: off
+# fmt: skip 
+```
 
 ### Node (JavaScript)
 - TODO - setup for `npm`, `nvm`
@@ -107,6 +145,6 @@ open ~/.profile
 ### Rust
 - TODO - setup
 
-# C++
+### C++
 - TODO - setup
 
