@@ -5,7 +5,7 @@
 ### Routine (~1st day of each month)
 - Backup code
 - Backup Chrome bookmarks
-  - chrome://bookmarks/ > snowman at top right > export bookmarks > save file > add to [Backups](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
+  - go to [chrome://bookmarks/](chrome://bookmarks/) > snowman at top right > export bookmarks > save file > add to [Backups](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
 - Collect credentials into an encrypted drive and backup
   - Create a credential folder > add all new credentials
   - Open the existing encrypted credentials `dmg` > add those files to the new credentials folder
