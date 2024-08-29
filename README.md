@@ -35,7 +35,7 @@ brew install \
   awscli \
   mongodb-atlas-cli \
   quarto \
-  uv \ 
+  uv \
   zsh
 ```
 4. install `casks`
@@ -72,6 +72,10 @@ ZSH_THEME="agnoster"
 - See setup
 ```sh
 open ~/.zprofile
+open ~/.zshrc
+open ~/.bash_profile
+open ~/.bashrc
+open ~/.profile
 ```
 
 
