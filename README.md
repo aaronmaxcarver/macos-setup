@@ -24,7 +24,6 @@
 - Visit the bookmark for this page > Sign in to GitHub
 
 ### First programs
-- Cloudflare WARP
 - Mosaic + settings file
 
 ### `homebrew`
@@ -42,6 +41,7 @@ brew install \
 4. install `casks`
 ```sh
 brew install --cask \
+  cloudflare-warp \
   docker \
   discord \
   mongodb-compass \
