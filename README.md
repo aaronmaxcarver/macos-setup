@@ -56,7 +56,7 @@ brew install --cask \
 ```
 5. Setup
 - open each program, add to dock, log in, etc.
-- set startup items - notunes, ...
+- Settings > General > Login Items > add noTunes
 ```sh
 # Add this to .zshrc
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
