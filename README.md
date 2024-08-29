@@ -83,5 +83,5 @@ open ~/.profile
 ### SSH keys
 - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Used by
-  - GitHub - 
-  - HuggingFace - 
+  - GitHub - https://github.com/settings/keys
+  - HuggingFace - https://huggingface.co/settings/keys
