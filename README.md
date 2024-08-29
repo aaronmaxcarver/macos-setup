@@ -114,32 +114,32 @@ open ~/.profile
     - Basically - go to the repo's base directory and run `uv init`
 - `uv` uses a `pyproject.toml` file - here's the official [docs](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
   - I found the docs to be overly verbose for basic usage. I don't know of a good brief intro
-- Basic `uv` commands:
-```sh
-uv add requests
-uv remove requests
-```
+- Common `uv` commands:
+  ```sh
+  uv add requests
+  uv remove requests
+  ```
 
 #### Ruff - linting and formatting
 - [Docs](https://docs.astral.sh/ruff/)
 - VS Code Extension (`README`)[https://github.com/astral-sh/ruff-vscode/blob/main/README.md]
 - Turn on "Format on Save" using VS Code Settings
-- Common CLI commands
-```sh
-# lint
-ruff check
-ruff check --fix
-# format
-ruff format
-# sort imports
-ruff check --select I --fix
-```
+- Common CLI commands:
+  ```sh
+  # lint
+  ruff check
+  ruff check --fix
+  # format
+  ruff format
+  # sort imports
+  ruff check --select I --fix
+  ```
 - Turn off/on in code using magic comments
-```py
-# fmt: on 
-# fmt: off
-# fmt: skip 
-```
+  ```py
+  # fmt: on 
+  # fmt: off
+  # fmt: skip 
+  ```
 
 ## Node (JavaScript)
 - TODO - setup for `npm`, `nvm`
