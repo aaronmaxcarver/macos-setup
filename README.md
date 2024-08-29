@@ -55,22 +55,19 @@ brew install --cask \
   zotero
 ```
 5. Setup
-- open each program, add to dock, log in, etc.
+- Open each program, add to dock, log in, configure settings, etc.
 - Settings > General > Login Items > add noTunes
-```sh
-# Add this to .zshrc
-# alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
-```
-
-### Other programs
-- [Neo4j Desktop](https://neo4j.com/deployment-center/)
-- Postgres
   
 ### CLI tools
 - [uv](https://docs.astral.sh/uv/)
 - [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [MongoDB Atlas CLI](https://www.mongodb.com/docs/atlas/cli/current/install-atlas-cli/)
 - [Quarto](https://quarto.org/docs/get-started/)
+
+### Shell setup
+```sh
+cat ~/.zprofile
+```
 
 ### SSH keys
 - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
