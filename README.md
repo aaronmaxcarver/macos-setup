@@ -32,7 +32,10 @@ brew update
 3. install `formulae`
 ```sh
 brew install \
+  awscli \
   mongodb-atlas-cli \
+  quarto \
+  uv \ 
   zsh
 ```
 4. install `casks`
@@ -41,6 +44,7 @@ brew install --cask \
   cloudflare-warp \
   docker \
   discord \
+  mongodb-atlas \
   mongodb-compass \
   mosaic \
   neo4j \
@@ -69,12 +73,6 @@ ZSH_THEME="agnoster"
 ```sh
 open ~/.zprofile
 ```
-
-### CLI tools
-- [uv](https://docs.astral.sh/uv/)
-- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [MongoDB Atlas CLI](https://www.mongodb.com/docs/atlas/cli/current/install-atlas-cli/)
-- [Quarto](https://quarto.org/docs/get-started/)
 
 
 ### SSH keys
