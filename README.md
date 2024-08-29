@@ -23,9 +23,6 @@
 - Sign in to Google Account
 - Visit the bookmark for this page > Sign in to GitHub
 
-### First programs
-- Mosaic + settings file
-
 ### `homebrew`
 1. [install homebrew](https://brew.sh/)
 2. update homebrew
@@ -45,6 +42,7 @@ brew install --cask \
   docker \
   discord \
   mongodb-compass \
+  mosaic \
   neo4j \
   notunes \
   ollama \
