@@ -19,7 +19,7 @@
   - Delete all plaintext credentials files
 
 
-## Setup
+## Setup - programs, shell, IDE, SSH keys
 **Factory settings --> Daily driver**
 
 
@@ -91,6 +91,10 @@ open ~/.profile
 ```
 
 
+### VS Code Settings
+- TODO 
+
+
 ### SSH keys
 - Follow the instructions. It's a bit tricky the first time, but overall not so bad. 
   - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -98,10 +102,8 @@ open ~/.profile
   - GitHub - https://github.com/settings/keys
   - HuggingFace - https://huggingface.co/settings/keys
 
-### VS Code Settings
-- TODO 
 
-### Python
+## Python
 
 #### `uv` - manage packages and virtual environments
 - [Docs](https://docs.astral.sh/uv/)
@@ -139,12 +141,12 @@ ruff check --select I --fix
 # fmt: skip 
 ```
 
-### Node (JavaScript)
+## Node (JavaScript)
 - TODO - setup for `npm`, `nvm`
 
-### Rust
+## Rust
 - TODO - setup
 
-### C++
+## C++
 - TODO - setup
 
