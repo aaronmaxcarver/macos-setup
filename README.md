@@ -18,9 +18,8 @@
 ## Setup
 
 ### First steps
-- Create MacOS user
-- Download Google Chrome
-- Sign in to Google Account
+- Connect mouse and/or keybaord (need wired or Apple brand ones), sign in to wifi and Apple ID, create MacOS user
+- Download Google Chrome, sign in to Google Account
 - Visit the bookmark for this page > Sign in to GitHub
 
 ### `homebrew`
