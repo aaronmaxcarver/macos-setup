@@ -44,7 +44,10 @@ open ~/.profile
 ```
 
 ### SSH keys
-- ...
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Used by
+  - GitHub - 
+  - HuggingFace - 
 
 ### `homebrew`
 - TODO - how to install
@@ -65,29 +68,33 @@ brew install --cask snowflake-snowsql
 - uv python
 - homebrew python
 - framework python (downloads from python.org)
-- pipenv
 
 ### CLI tools
 - AWS CLI v2
 - MongoDB Atlas CLI
+- Quarto
 
 ### Applications
 - Cloudflare WARP
 - Docker Desktop
 - Google Chrome
 - Discord
+- Docker
 - MongoDB Compass
 - Mosaic + settings file
+- Neo4j Desktop
 - noTunes
 - Ollama
-- PGAdmin
+- pgAdmin 4
+- Postgres
 - Postman
 - Scrivener
 - Slack
 - Visual Studio Code
 - Zoom
+- Zotero
 
-### Data
+### Data Storage
 - Repos
 - Google Drive
 - Cold storage backup
