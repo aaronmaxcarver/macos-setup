@@ -17,6 +17,12 @@
 
 ## Setup
 
+### First steps
+- Create user
+- Download Google Chrome
+- Sign in to Google Account
+- Visit the bookmark for this page > Sign in to GitHub
+
 ### `homebrew`
 1. [install homebrew](https://brew.sh/)
 2. update homebrew
@@ -35,7 +41,6 @@ brew install \
 ```sh
 brew install --cask \
   docker \
-  google-chrome \
   discord \
   mongodb-compass \
   neo4j-desktop \
