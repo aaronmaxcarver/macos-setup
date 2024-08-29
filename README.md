@@ -114,7 +114,7 @@ open ~/.profile
     - Basically - go to the repo's base directory and run `uv init`
 - `uv` uses a `pyproject.toml` file - here's the official [docs](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
   - I found the docs to be overly verbose for basic usage. I don't know of a good brief intro
-- Common `uv` commands:
+- Common `uv` commands (where [`requests`](https://pypi.org/project/requests/) is a PyPI package name):
   ```sh
   uv add requests
   uv remove requests
