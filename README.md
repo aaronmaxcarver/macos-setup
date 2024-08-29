@@ -1,5 +1,5 @@
 # macos-setup
-**Factory settings --> Daily driver**
+
 
 ## Maintenance
 ### Routine (~1st day of each month)
@@ -15,22 +15,25 @@
   - Copy the new `.dmg` to secondary storage, e.g. Google Drive
   - Delete all plaintext credentials files
 
+
 ## Setup
+**Factory settings --> Daily driver**
+
 
 ### First steps
-- Connect mouse and/or keybaord (need wired or Apple brand ones), sign in to wifi and Apple ID, create MacOS user
-- Download Google Chrome, sign in to Google Account
-- Visit the bookmark for this page > Sign in to GitHub
-- Tinker with the screen, mouse settings, etc.
+- Connect mouse and/or keybaord (need wired or Apple brand ones) > Sign in to wifi and Apple ID > Create MacOS user
+- Tinker with the screen(s) settings, mouse settings, etc. as desired
 - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
-  
+- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
+
+
 ### `homebrew`
-1. [install homebrew](https://brew.sh/)
-2. update homebrew
+1. Install [homebrew](https://brew.sh/)
+2. Update homebrew
 ```sh
 brew update
 ```
-3. install `formulae`
+3. install [brew `formulae`](https://formulae.brew.sh/)
 ```sh
 brew install \
   awscli \
@@ -39,7 +42,7 @@ brew install \
   uv \
   zsh
 ```
-4. install `casks`
+4. install [brew `casks`](https://formulae.brew.sh/cask/)
 ```sh
 brew install --cask \
   cloudflare-warp \
@@ -59,12 +62,14 @@ brew install --cask \
   zoom \
   zotero
 ```
-5. Setup
+5. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
-- Settings > General > Login Items > add noTunes
+- Set Login Items
+  - Settings > General > Login Items > add noTunes
+
 
 ### Shell
-- [oh my zsh](https://ohmyz.sh/#install)
+- Install [oh my zsh](https://ohmyz.sh/#install)
 ```
 open ~/.zshrc
 # set:
@@ -84,7 +89,21 @@ open ~/.profile
 
 
 ### SSH keys
-- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- Used by
+- Follow the instructions. It's a bit tricky the first time, but overall not so bad. 
+  - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Upload public key to services as needed, e.g.:
   - GitHub - https://github.com/settings/keys
   - HuggingFace - https://huggingface.co/settings/keys
+
+### Python
+- TODO - setup for `uv`
+
+### Node (JavaScript)
+- TODO - setup for `npm`, `nvm`
+
+### Rust
+- TODO - setup
+
+# C++
+- TODO - setup
+
