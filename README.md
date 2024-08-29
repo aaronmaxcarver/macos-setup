@@ -57,17 +57,25 @@ brew install --cask \
 5. Setup
 - Open each program, add to dock, log in, configure settings, etc.
 - Settings > General > Login Items > add noTunes
-  
+
+### Shell
+- [oh my zsh](https://ohmyz.sh/#install)
+```
+open ~/.zshrc
+# set:
+ZSH_THEME="agnoster"
+```
+- See setup
+```sh
+open ~/.zprofile
+```
+
 ### CLI tools
 - [uv](https://docs.astral.sh/uv/)
 - [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [MongoDB Atlas CLI](https://www.mongodb.com/docs/atlas/cli/current/install-atlas-cli/)
 - [Quarto](https://quarto.org/docs/get-started/)
 
-### Shell setup
-```sh
-cat ~/.zprofile
-```
 
 ### SSH keys
 - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
