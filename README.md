@@ -45,6 +45,7 @@ brew install --cask \
   docker \
   discord \
   mongodb-compass \
+  neo4j \
   notunes \
   ollama \
   pgadmin4 \
