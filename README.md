@@ -18,7 +18,7 @@
 ## Setup
 
 ### First steps
-- Create user
+- Create MacOS user
 - Download Google Chrome
 - Sign in to Google Account
 - Visit the bookmark for this page > Sign in to GitHub
