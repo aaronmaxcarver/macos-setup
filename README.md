@@ -17,12 +17,12 @@
 ## Setup
 
 ### `homebrew`
-- [install homebrew](https://brew.sh/)
-- update homebrew
+1. [install homebrew](https://brew.sh/)
+2. update homebrew
 ```sh
 brew update
 ```
-- `formulae`
+3. install `formulae`
 ```sh
 brew install \
   docker \
@@ -30,7 +30,7 @@ brew install \
   postgresql \
   zsh
 ```
-- `casks`
+4. install `casks`
 ```sh
 brew install --cask \
   docker \
@@ -47,7 +47,7 @@ brew install --cask \
   zoom \
   zotero
 ```
-- more `casks`
+5. install more `casks`
 ```sh
 # Snowflake CLI - https://docs.snowflake.com/en/user-guide/snowsql-install-config
 brew install --cask snowflake-snowsql
@@ -55,10 +55,9 @@ brew install --cask snowflake-snowsql
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
 ```
 
-### Other programs
+### Download and install other programs
 - Cloudflare WARP
 - Mosaic + settings file
-- Postgres
 - Scrivener
  
 ### CLI tools
