@@ -21,7 +21,9 @@
 - Connect mouse and/or keybaord (need wired or Apple brand ones), sign in to wifi and Apple ID, create MacOS user
 - Download Google Chrome, sign in to Google Account
 - Visit the bookmark for this page > Sign in to GitHub
-
+- Tinker with the screen, mouse settings, etc.
+- Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
+  
 ### `homebrew`
 1. [install homebrew](https://brew.sh/)
 2. update homebrew
