@@ -54,7 +54,9 @@ brew install --cask \
   zoom \
   zotero
 ```
-5. Other
+5. Setup
+- open each program, add to dock, log in, etc.
+- set startup items - notunes, ...
 ```sh
 # Add this to .zshrc
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
