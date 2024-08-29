@@ -36,9 +36,7 @@ brew update
 3. install `formulae`
 ```sh
 brew install \
-  docker \
-  mongodb-community \
-  postgresql \
+  mongodb-atlas-cli \
   zsh
 ```
 4. install `casks`
@@ -47,24 +45,26 @@ brew install --cask \
   docker \
   discord \
   mongodb-compass \
-  neo4j-desktop \
   notunes \
   ollama \
   pgadmin4 \
   postman \
   slack \
+  snowflake-snowsql \
   visual-studio-code \
   zoom \
   zotero
 ```
-5. install more `casks`
+5. Other
 ```sh
-# Snowflake CLI - https://docs.snowflake.com/en/user-guide/snowsql-install-config
-brew install --cask snowflake-snowsql
 # Add this to .zshrc
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
 ```
- 
+
+### Other programs
+- [Neo4j Desktop](https://neo4j.com/deployment-center/)
+- Postgres
+  
 ### CLI tools
 - [uv](https://docs.astral.sh/uv/)
 - [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
