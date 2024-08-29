@@ -142,11 +142,7 @@ open ~/.profile
   ```
 
 ## Node (JavaScript)
-- TODO - setup for `npm`, `nvm`
-
-## Rust
-- TODO - setup
-
-## C++
-- TODO - setup
+- TODO - homebrew for multiple npm versions
+  - https://medium.com/@rldsn/manage-multiple-node-js-versions-with-homebrew-d8e6bf5b3b54
+- alternative - `nvm`
 
