@@ -23,6 +23,10 @@
 - Sign in to Google Account
 - Visit the bookmark for this page > Sign in to GitHub
 
+### First programs
+- Cloudflare WARP
+- Mosaic + settings file
+
 ### `homebrew`
 1. [install homebrew](https://brew.sh/)
 2. update homebrew
@@ -60,19 +64,12 @@ brew install --cask snowflake-snowsql
 # Add this to .zshrc
 # alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
 ```
-
-### Download and install other programs
-- Cloudflare WARP
-- Mosaic + settings file
-- Scrivener
  
 ### CLI tools
 - [uv](https://docs.astral.sh/uv/)
 - [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [MongoDB Atlas CLI](https://www.mongodb.com/docs/atlas/cli/current/install-atlas-cli/)
 - [Quarto](https://quarto.org/docs/get-started/)
-
-
 
 ### SSH keys
 - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
