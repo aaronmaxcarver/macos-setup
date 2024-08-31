@@ -45,7 +45,6 @@ brew install \
   awscli \
   mongodb-atlas-cli \
   quarto \
-  rye \
   uv \
   zsh
 ```
