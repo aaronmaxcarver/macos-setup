@@ -97,7 +97,10 @@ open ~/.bash_profile
 open ~/.bashrc
 open ~/.profile
 ```
-
+- AWS CLIv2 (note - using access key temporarily until SSO setup is ready)
+```sh
+TODO
+```
 
 ### VS Code Settings
 - TODO 
