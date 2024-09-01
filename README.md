@@ -130,7 +130,7 @@ open ~/.profile
 
 #### Ruff - linting and formatting
 - [Docs](https://docs.astral.sh/ruff/)
-- VS Code Extension (`README`)[https://github.com/astral-sh/ruff-vscode/blob/main/README.md]
+- VS Code Extension [`README`](https://github.com/astral-sh/ruff-vscode/blob/main/README.md)
 - Turn on "Format on Save" using VS Code Settings
 - Common CLI commands:
   ```sh
