@@ -33,6 +33,8 @@
     - Tracking Speed > maximum fast, Natural Scrolling > off, Secondary Click > Click Right Side, Smart Zoom > On
   - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
   - Settings > Keyboard > Dictation > enable
+  - Settings > Lock Screen >
+    - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
 - Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
 
 
