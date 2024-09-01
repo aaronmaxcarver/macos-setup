@@ -99,11 +99,31 @@ open ~/.profile
 ```
 - AWS CLIv2 (note - using access key temporarily until SSO setup is ready)
 ```sh
-TODO
+# via access key
+aws configure
+# via SSO
+aws configure sso
+# config and creds
+open ~/.aws/config
+open ~/.aws/credentials
 ```
 
 ### VS Code Settings
-- TODO 
+```json
+{
+  // Ruff w/ format on save
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "ruff.format.args": [],
+  "ruff.lint.run": "onSave"
+}
+```
 
 
 ### SSH keys
