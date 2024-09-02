@@ -49,6 +49,7 @@ brew update
 brew install \
   awscli \
   mongodb-atlas-cli \
+  node@22 \
   quarto \
   uv \
   zsh
@@ -173,6 +174,10 @@ open ~/.aws/credentials
   ```
 
 ## Node (JavaScript)
+- Node 22
+```sh
+brew install node@22
+```
 - TODO - homebrew for multiple npm versions
   - https://medium.com/@rldsn/manage-multiple-node-js-versions-with-homebrew-d8e6bf5b3b54
 - alternative - `nvm`
