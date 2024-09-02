@@ -144,6 +144,7 @@ open ~/.aws/credentials
 - Recommended: read through the `uv` docs to find instructions for your use case
   - For managing a `venv` for a particular repo, see the [Projects](https://docs.astral.sh/uv/concepts/projects/#creating-projects) docs
     - Basically - go to the repo's base directory and run `uv init`
+    - Also run `uv sync` if there's already a `pyproject.toml`
 - `uv` uses a `pyproject.toml` file - here's the official [docs](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
   - I found the docs to be overly verbose for basic usage. I don't know of a good brief intro
 - Common `uv` commands (where [`requests`](https://pypi.org/project/requests/) is a PyPI package name):
