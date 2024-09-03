@@ -108,6 +108,8 @@ aws configure sso
 # config and creds
 open ~/.aws/config
 open ~/.aws/credentials
+# Test which account is being used
+aws sts get-caller-identity
 ```
 
 ### VS Code Settings
