@@ -153,7 +153,12 @@ open ~/.aws/credentials
   uv add requests
   uv remove requests
   ```
+- Which venv is active?
+  ```sh
+  echo $VIRTUAL_ENV
+  ```
 
+  
 #### Ruff - linting and formatting
 - [Docs](https://docs.astral.sh/ruff/)
 - VS Code Extension [`README`](https://github.com/astral-sh/ruff-vscode/blob/main/README.md)
