@@ -119,17 +119,18 @@ aws sts get-caller-identity
 {
   "[python]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
     },
-    "notebook.codeActionsOnSave": {
-      "notebook.source.fixAll": "explicit"
-    }
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
-  "notebook.formatOnSave.enabled": true
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  }
 }
-
 ```
 
 
