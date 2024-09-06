@@ -113,20 +113,23 @@ aws sts get-caller-identity
 ```
 
 ### VS Code Settings
+
+- For `.vscode/settings.json` setup, [see here](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
 ```json
 {
-  // Ruff w/ format on save
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
-  },
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "notebook.codeActionsOnSave": {
+      "notebook.source.fixAll": "explicit"
+    }
   },
-  "ruff.format.args": [],
-  "ruff.lint.run": "onSave"
+  "notebook.formatOnSave.enabled": true
 }
+
 ```
 
 
