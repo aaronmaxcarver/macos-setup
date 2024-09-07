@@ -99,13 +99,26 @@ open ~/.bash_profile
 open ~/.bashrc
 open ~/.profile
 ```
-- AWS CLIv2 (note - using access key temporarily until SSO setup is ready)
-```sh
-# via access key
-aws configure
-# via SSO
-aws configure sso
-# config and creds
+- AWS CLIv2 configuration
+  - Option 1: Access Key
+  ```sh
+  # configure
+  aws configure
+  # input access key
+  # input secret key
+  # input `us-east-1`
+  # input `json`
+  - Option 2: SSO
+  ```sh
+  aws configure sso login
+  # SSO session name: `prod`
+  # SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
+  # SSO region: `us-east-1`
+  # SSO registration scopes: leave as is
+  ```
+- Inspect AWS CLI configuration
+```
+# view config and credentials
 open ~/.aws/config
 open ~/.aws/credentials
 # Test which account is being used
