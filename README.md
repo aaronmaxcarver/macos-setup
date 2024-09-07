@@ -110,7 +110,7 @@ open ~/.profile
   # input `json`
   - Option 2: SSO
   ```sh
-  aws configure sso login
+  aws configure sso
   # SSO session name: `prod`
   # SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
   # SSO region: `us-east-1`
