@@ -115,6 +115,10 @@ open ~/.profile
   # SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
   # SSO region: `us-east-1`
   # SSO registration scopes: leave as is
+  # browser automatically prompts sign in
+  # CLI default client Region: `us-east-1`
+  # CLI default output format: `json`
+  # CLI profile name: leave as is
   ```
 - Inspect AWS CLI configuration
 ```
