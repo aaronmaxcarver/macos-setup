@@ -100,17 +100,11 @@ open ~/.bashrc
 open ~/.profile
 ```
 
-### AWS CLIv2 configuration
-- Option 1: Access Key
-```sh
-# configure
-aws configure
-# input access key
-# input secret key
-# input `us-east-1`
-# input `json`
-```
-- Option 2: SSO
+### AWS CLIv2
+
+#### Configure
+- Option 1: SSO (recommended)
+  - you'll need to have your AWS admin make you an SSO account
 ```sh
 aws configure sso
 # SSO session name: `prod`
@@ -122,14 +116,18 @@ aws configure sso
 # CLI default output format: `json`
 # CLI profile name: leave as is
 ```
-- Inspect AWS CLI configuration
+- Option 2: Access Key (not recommended)
+  - this works for any AWS account
 ```sh
-# view config and credentials
-open ~/.aws/config
-open ~/.aws/credentials
-# Test which account is being used
-aws sts get-caller-identity
+# configure
+aws configure
+# input access key
+# input secret key
+# input `us-east-1`
+# input `json`
 ```
+
+#### Login
 - Log in to SSO
 ```sh
 # use the `sso-session` name from `cat ~/.aws/config`
@@ -142,6 +140,15 @@ export AWS_PROFILE=PowerUserAccess-012345678901
 # then use CLI commands
 aws sts get-caller-identity
 aws s3 ls # will print nothing if the account has no S3 items
+```
+
+#### Inspect AWS CLI configuration
+```sh
+# view config and credentials
+open ~/.aws/config
+open ~/.aws/credentials
+# Test which account is being used
+aws sts get-caller-identity
 ```
 
 ### VS Code Settings
