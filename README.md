@@ -99,34 +99,49 @@ open ~/.bash_profile
 open ~/.bashrc
 open ~/.profile
 ```
-- AWS CLIv2 configuration
-  - Option 1: Access Key
-  ```sh
-  # configure
-  aws configure
-  # input access key
-  # input secret key
-  # input `us-east-1`
-  # input `json`
-  - Option 2: SSO
-  ```sh
-  aws configure sso
-  # SSO session name: `prod`
-  # SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
-  # SSO region: `us-east-1`
-  # SSO registration scopes: leave as is
-  # browser automatically prompts sign in
-  # CLI default client Region: `us-east-1`
-  # CLI default output format: `json`
-  # CLI profile name: leave as is
-  ```
-- Inspect AWS CLI configuration
+
+### AWS CLIv2 configuration
+- Option 1: Access Key
+```sh
+# configure
+aws configure
+# input access key
+# input secret key
+# input `us-east-1`
+# input `json`
 ```
+- Option 2: SSO
+```sh
+aws configure sso
+# SSO session name: `prod`
+# SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
+# SSO region: `us-east-1`
+# SSO registration scopes: leave as is
+# browser automatically prompts sign in
+# CLI default client Region: `us-east-1`
+# CLI default output format: `json`
+# CLI profile name: leave as is
+```
+- Inspect AWS CLI configuration
+```sh
 # view config and credentials
 open ~/.aws/config
 open ~/.aws/credentials
 # Test which account is being used
 aws sts get-caller-identity
+```
+- Log in to SSO
+```sh
+# use the `sso-session` name from `cat ~/.aws/config`
+aws sso login --sso-session prod
+```
+- Use a named profile for a shell session
+```sh
+# set env var to the `profile` name from `cat ~/.aws/config`
+export AWS_PROFILE=PowerUserAccess-012345678901
+# then use CLI commands
+aws sts get-caller-identity
+aws s3 ls # will print nothing if the account has no S3 items
 ```
 
 ### VS Code Settings
