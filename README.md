@@ -52,6 +52,7 @@ brew install \
   mongodb-atlas-cli \
   node@22 \
   quarto \
+  redis \
   uv \
   zsh
 ```
