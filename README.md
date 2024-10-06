@@ -49,6 +49,7 @@ brew update
 brew install \
   awscli \
   cfn-lint \
+  graphviz \
   mongodb-atlas-cli \
   node@22 \
   quarto \
