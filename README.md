@@ -63,6 +63,7 @@ brew install --cask \
   cloudflare-warp \
   docker \
   discord \
+  firefox \
   mongodb-atlas \
   mongodb-compass \
   mosaic \
