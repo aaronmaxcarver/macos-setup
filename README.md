@@ -48,9 +48,11 @@ brew update
 ```sh
 brew install \
   asitop \
+  atop \
   awscli \
   cfn-lint \
   graphviz \
+  htop \
   mongodb-atlas-cli \
   node@22 \
   quarto \
