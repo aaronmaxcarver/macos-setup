@@ -48,7 +48,6 @@ brew update
 ```sh
 brew install \
   asitop \
-  atop \
   awscli \
   cfn-lint \
   graphviz \
