@@ -47,6 +47,7 @@ brew update
 3. Install [brew formulae](https://formulae.brew.sh/)
 ```sh
 brew install \
+  asitop \
   awscli \
   cfn-lint \
   graphviz \
