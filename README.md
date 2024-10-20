@@ -124,7 +124,8 @@ $ SSO region: `us-east-1`
 $ SSO registration scopes: leave as is
 # Browser automatically prompts sign in
 # After sign in, you may see "There are x AWS accounts available to you."
-# Choose the appropriate one, probably "Staging"
+# Choose the appropriate account, probably "Staging"
+# You may also be prompted to pick a role - choose the appropriate one
 $ CLI default client Region: `us-east-1`
 $ CLI default output format: `json`
 $ CLI profile name: leave as is
