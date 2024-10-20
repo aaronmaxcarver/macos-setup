@@ -118,14 +118,16 @@ open ~/.aws
   - requires SSO account creation by AWS admin
 ```sh
 aws configure sso
-# SSO session name: `prod`
-# SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
-# SSO region: `us-east-1`
-# SSO registration scopes: leave as is
-# browser automatically prompts sign in
-# CLI default client Region: `us-east-1`
-# CLI default output format: `json`
-# CLI profile name: leave as is
+$ SSO session name: `staging`
+$ SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
+$ SSO region: `us-east-1`
+$ SSO registration scopes: leave as is
+# Browser automatically prompts sign in
+# After sign in, you may see "There are x AWS accounts available to you."
+# Choose the appropriate one, probably "Staging"
+$ CLI default client Region: `us-east-1`
+$ CLI default output format: `json`
+$ CLI profile name: leave as is
 ```
 - Option 2: Access Key (not recommended)
   - this works for any AWS account
