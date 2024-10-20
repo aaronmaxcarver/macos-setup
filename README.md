@@ -110,8 +110,12 @@ open ~/.profile
 ### AWS CLIv2
 
 #### Configure
+- View config and such
+```sh
+open ~/.aws
+```
 - Option 1: SSO (recommended)
-  - you'll need to have your AWS admin make you an SSO account
+  - requires SSO account creation by AWS admin
 ```sh
 aws configure sso
 # SSO session name: `prod`
