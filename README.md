@@ -56,6 +56,7 @@ brew install \
   node@22 \
   quarto \
   redis \
+  rust \
   uv \
   zsh
 ```
