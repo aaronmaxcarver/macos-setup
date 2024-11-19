@@ -240,6 +240,22 @@ aws sts get-caller-identity
   # fmt: skip 
   ```
 
+#### Jupyter Notebooks - relative imports
+- Enable Jupyter Notebooks to use relative imports ([read more](https://discourse.jupyter.org/t/how-can-i-pass-environment-variabel-pythonpath-to-jupyter-notebook/7351/2))
+```sh
+# find the path to the kernel spec file
+jupyter kernelspec list
+# open that file and add env vars for PYTHONPATH and ENVIRONMENT, e.g.:
+"env": {
+  "PYTHONPATH": "/Users/aaronmaxcarver/GitHub/aaron-repo-name/",
+  "ENVIRONMENT": "DEV"
+  },
+# Rename the kernel for convenience, e.g.:
+"display_name": "aaron-repo-name",
+# After a change, reload the window. Sometimes VS Code just won't sync the change for a bit. 
+cmd + shift + p, Developer: Reload Window
+```
+
 ## Node (JavaScript)
 - Node 22
 ```sh
