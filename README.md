@@ -50,6 +50,7 @@ brew install \
   asitop \
   awscli \
   cfn-lint \
+  ffmpeg \
   graphviz \
   htop \
   mongodb-atlas-cli \
