@@ -59,6 +59,7 @@ brew install \
   redis \
   rust \
   uv \
+  watchman \
   zsh
 ```
 4. Install [brew casks](https://formulae.brew.sh/cask/)
@@ -68,7 +69,6 @@ brew install --cask \
   docker \
   discord \
   firefox \
-  mongodb-atlas \
   mongodb-compass \
   mosaic \
   neo4j \
@@ -80,7 +80,7 @@ brew install --cask \
   snowflake-snowsql \
   visual-studio-code \
   zoom \
-  zotero
+  zulu@17
 ```
 5. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
