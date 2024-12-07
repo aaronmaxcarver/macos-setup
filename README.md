@@ -82,7 +82,9 @@ brew install --cask \
   zoom \
   zulu@17
 ```
-5. Setup programs
+5. Non-brew installs
+- Android Studio
+7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
   - Settings > General > Login Items > add noTunes, Mosaic
