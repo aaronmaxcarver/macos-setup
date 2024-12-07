@@ -64,6 +64,7 @@ brew install \
 4. Install [brew casks](https://formulae.brew.sh/cask/)
 ```sh
 brew install --cask \
+  android-platform-tools \
   docker \
   discord \
   firefox \
