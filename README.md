@@ -83,7 +83,7 @@ brew install --cask \
   zulu@17
 ```
 5. Non-brew installs
-- Android Studio
+- Android Studio per https://reactnative.dev/docs/set-up-your-environment
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
