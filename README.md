@@ -50,6 +50,7 @@ brew install \
   asitop \
   awscli \
   cfn-lint \
+  clang-format \
   ffmpeg \
   graphviz \
   htop \
