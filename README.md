@@ -50,6 +50,7 @@ brew install \
   asitop \
   awscli \
   cfn-lint \
+  expo-orbit \
   ffmpeg \
   graphviz \
   htop \
