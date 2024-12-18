@@ -50,7 +50,9 @@ brew install \
   asitop \
   awscli \
   cfn-lint \
+  cocoapods \
   expo-orbit \
+  fastlane \
   ffmpeg \
   graphviz \
   htop \
