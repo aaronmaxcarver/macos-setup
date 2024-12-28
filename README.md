@@ -42,7 +42,6 @@ brew install \
   graphviz \
   htop \
   mongodb-atlas-cli \
-  node@22 \
   pnpm \
   quarto \
   redis \
