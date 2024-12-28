@@ -1,44 +1,29 @@
 # macos-setup
 
-
-## Maintenance
-### Routine (~1st day of each month)
-- Backup code to secondary storage
-  - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
-- Backup Chrome bookmarks
-  - go to [chrome://bookmarks/](chrome://bookmarks/) > snowman at top right > export bookmarks > save file > add to secondary storage
-    - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
-- Collect credentials into an encrypted drive and backup
-  - Create a credential folder > add all new credentials
-  - Open the existing encrypted credentials `dmg` > add those files to the new credentials folder
-  - Open `Disk Utility` > File > New Image > Image from folder
-  - Select the new credentials folder > choose Encryption type of "256-bit AES ..." > enter password
-  - Open the new encrypted `dmg` to ensure the password was set correctly
-  - Copy the new `.dmg` to secondary storage
-    - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
-  - Delete all plaintext credentials files
-
-
-## Setup - programs, shell, IDE, SSH keys
 **Factory settings --> Daily driver**
 
+## VS Code Settings
 
-### First steps
-- Connect mouse and/or keybaord (need wired or Apple brand ones) > Sign in to wifi and Apple ID > Create MacOS user
-- Tinker with the screen(s) settings, mouse settings, etc. as desired
-  - Settings > Displays >
-    - set up dual screen w/ max resolution
-    - Night Shift > Sunset to Sunrise + Color Temperature to full warm
-  - Settings > Mouse >
-    - Tracking Speed > maximum fast, Natural Scrolling > off, Secondary Click > Click Right Side, Smart Zoom > On
-  - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
-  - Settings > Keyboard > Dictation > enable
-  - Settings > Lock Screen >
-    - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
-- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
+- For `.vscode/settings.json` setup, [see here](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
+```json
+{
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  }
+}
+```
 
-
-### `homebrew`
+## `homebrew`
 1. Install [homebrew](https://brew.sh/)
 2. Update homebrew
 ```sh
@@ -58,6 +43,7 @@ brew install \
   htop \
   mongodb-atlas-cli \
   node@22 \
+  pnpm \
   quarto \
   redis \
   rust \
@@ -93,7 +79,7 @@ brew install --cask \
   - Settings > General > Login Items > add noTunes, Mosaic
 
 
-### Shell
+## Shell setup
 - Install [oh my zsh](https://ohmyz.sh/#install)
 ```
 open ~/.zshrc
@@ -115,9 +101,9 @@ open ~/.bashrc
 open ~/.profile
 ```
 
-### AWS CLIv2
+## AWS CLIv2
 
-#### Configure
+### Configure
 - View config and such
 ```sh
 open ~/.aws
@@ -149,7 +135,7 @@ aws configure
 # input `json`
 ```
 
-#### Login
+### Login
 - Log in to SSO
 ```sh
 # use the `sso-session` name from `cat ~/.aws/config`
@@ -164,7 +150,7 @@ aws sts get-caller-identity
 aws s3 ls # will print nothing if the account has no S3 items
 ```
 
-#### Inspect AWS CLI configuration
+### Inspect AWS CLI configuration
 ```sh
 # view config and credentials
 open ~/.aws/config
@@ -173,29 +159,7 @@ open ~/.aws/credentials
 aws sts get-caller-identity
 ```
 
-### VS Code Settings
-
-- For `.vscode/settings.json` setup, [see here](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
-```json
-{
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
-    },
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
-  "notebook.formatOnSave.enabled": true,
-  "notebook.codeActionsOnSave": {
-    "notebook.source.fixAll": "explicit",
-    "notebook.source.organizeImports": "explicit"
-  }
-}
-```
-
-
-### SSH keys
+## SSH keys
 - Follow the instructions. It's a bit tricky the first time, but overall not so bad. 
   - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Upload public key to services as needed, e.g.:
@@ -205,7 +169,7 @@ aws sts get-caller-identity
 
 ## Python
 
-#### `uv` - manage packages and virtual environments
+### `uv` - manage packages and virtual environments
 - [Docs](https://docs.astral.sh/uv/)
   - I now use `uv` and think it's the very best...not `conda` or `pipenv` or `poetry`, though I appreciated those in the past
 - Install the `homebrew` fomulae `uv` if it's not already installed (`brew install uv`)
@@ -226,7 +190,7 @@ aws sts get-caller-identity
   ```
 
   
-#### Ruff - linting and formatting
+### Ruff - linting and formatting
 - [Docs](https://docs.astral.sh/ruff/)
 - VS Code Extension [`README`](https://github.com/astral-sh/ruff-vscode/blob/main/README.md)
 - Turn on "Format on Save" using VS Code Settings
@@ -247,7 +211,7 @@ aws sts get-caller-identity
   # fmt: skip 
   ```
 
-#### Jupyter Notebooks - relative imports
+### Jupyter Notebooks - relative imports
 - Enable Jupyter Notebooks to use relative imports ([read more](https://discourse.jupyter.org/t/how-can-i-pass-environment-variabel-pythonpath-to-jupyter-notebook/7351/2))
 ```sh
 # find the path to the kernel spec file
@@ -263,12 +227,40 @@ jupyter kernelspec list
 cmd + shift + p, Developer: Reload Window
 ```
 
-## Node (JavaScript)
-- Node 22
-```sh
-brew install node@22
-```
-- TODO - homebrew for multiple npm versions
-  - https://medium.com/@rldsn/manage-multiple-node-js-versions-with-homebrew-d8e6bf5b3b54
-- alternative - `nvm`
 
+## Node (JavaScript)
+- [Node](https://nodejs.org/en) (via `brew` command above)
+- [pnpm](https://pnpm.io/) (via `brew` command above)
+
+
+## Initial Setup
+- Connect mouse and/or keybaord (need wired or Apple brand ones) > Sign in to wifi and Apple ID > Create MacOS user
+- Tinker with the screen(s) settings, mouse settings, etc. as desired
+  - Settings > Displays >
+    - set up dual screen w/ max resolution
+    - Night Shift > Sunset to Sunrise + Color Temperature to full warm
+  - Settings > Mouse >
+    - Tracking Speed > maximum fast, Natural Scrolling > off, Secondary Click > Click Right Side, Smart Zoom > On
+  - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
+  - Settings > Keyboard > Dictation > enable
+  - Settings > Lock Screen >
+    - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
+- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
+
+
+## Maintenance
+### Routine (~1st day of each month)
+- Backup code to secondary storage
+  - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
+- Backup Chrome bookmarks
+  - go to [chrome://bookmarks/](chrome://bookmarks/) > snowman at top right > export bookmarks > save file > add to secondary storage
+    - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
+- Collect credentials into an encrypted drive and backup
+  - Create a credential folder > add all new credentials
+  - Open the existing encrypted credentials `dmg` > add those files to the new credentials folder
+  - Open `Disk Utility` > File > New Image > Image from folder
+  - Select the new credentials folder > choose Encryption type of "256-bit AES ..." > enter password
+  - Open the new encrypted `dmg` to ensure the password was set correctly
+  - Copy the new `.dmg` to secondary storage
+    - e.g. Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
+  - Delete all plaintext credentials files
