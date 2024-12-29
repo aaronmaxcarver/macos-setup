@@ -66,6 +66,7 @@ brew install --cask \
   docker \
   discord \
   firefox \
+  github \
   mongodb-compass \
   mosaic \
   neo4j \
