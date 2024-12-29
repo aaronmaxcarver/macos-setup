@@ -3,9 +3,10 @@
 **Factory settings --> Daily driver**
 
 ## VS Code Settings
+- Store in `.vscode/settings.json`
 
 ### Python
-- For `.vscode/settings.json` setup, [see here](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
+- [Ruff vs code config](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
 ```json
 {
   "[python]": {
