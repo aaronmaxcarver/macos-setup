@@ -19,7 +19,6 @@
   },
   "notebook.formatOnSave.enabled": true,
   "notebook.codeActionsOnSave": {
-    "notebook.source.fixAll": "explicit",
     "notebook.source.organizeImports": "explicit"
   }
 }
