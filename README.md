@@ -9,6 +9,7 @@
 - [Ruff vs code config](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
 ```json
 {
+  "python.languageServer": "Pylance",
   "[python]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
@@ -20,14 +21,20 @@
   "notebook.formatOnSave.enabled": true,
   "notebook.codeActionsOnSave": {
     "notebook.source.organizeImports": "explicit"
-  }
+  },
+  "workbench.activityBar.orientation": "vertical"
 }
 ```
 
 ### NextJS TypeScript
 ```json
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.activityBar.orientation": "vertical"
 }
 ```
 
