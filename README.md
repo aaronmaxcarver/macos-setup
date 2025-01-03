@@ -29,6 +29,9 @@
 ### NextJS TypeScript
 ```json
 {
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
