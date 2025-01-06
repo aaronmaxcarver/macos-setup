@@ -81,6 +81,7 @@ brew install \
 ```sh
 brew install --cask \
   android-platform-tools \
+  chatgpt \
   docker \
   discord \
   firefox \
