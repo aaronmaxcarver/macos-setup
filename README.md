@@ -96,7 +96,6 @@ brew install --cask \
   slack \
   snowflake-snowsql \
   visual-studio-code \
-  xnapper \
   zoom \
   zulu@17
 ```
