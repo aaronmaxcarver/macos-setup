@@ -9,20 +9,24 @@
 - [Ruff vs code config](https://github.com/astral-sh/ruff-vscode/blob/main/README.md#configuring-vs-code)
 ```json
 {
-  "python.languageServer": "Pylance",
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
-    },
-    "editor.defaultFormatter": "charliermarsh.ruff"
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
   },
-  "notebook.formatOnSave.enabled": true,
-  "notebook.codeActionsOnSave": {
-    "notebook.source.organizeImports": "explicit"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
-  "workbench.activityBar.orientation": "vertical"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.activityBar.orientation": "vertical",
+  "editor.wordWrap": "on"
 }
 ```
 
