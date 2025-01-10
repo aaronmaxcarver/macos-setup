@@ -107,7 +107,6 @@ brew install --cask \
   github \
   google-chrome \
   mongodb-compass \
-  mosaic \
   neo4j \
   notunes \
   ollama \
