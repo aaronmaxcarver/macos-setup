@@ -10,4 +10,4 @@
   - Settings > Keyboard > Dictation > enable
   - Settings > Lock Screen >
     - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
-- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
+- Visit the macos-setup README page to install homebrew
