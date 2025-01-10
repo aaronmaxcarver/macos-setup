@@ -3,7 +3,7 @@
 **Factory settings --> Daily driver**
 
 ### Contents
-- [Cursor (VS Code) Settings - Python, Typescript/NextJS](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#python)
+- [Cursor (VS Code) Settings - Python, Typescript/NextJS](https://github.com/aaronmaxcarver/macos-setup/blob/main/README.md#cursor-vs-code-settings)
 - [homebrew](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#homebrew)
 - [Shell setup](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#shell-setup)
 - [AWS CLIv2](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#aws-cliv2)
