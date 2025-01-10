@@ -113,7 +113,6 @@ brew install --cask \
   pgadmin4 \
   postman \
   slack \
-  snowflake-snowsql \
   visual-studio-code \
   zoom \
   zulu@17
