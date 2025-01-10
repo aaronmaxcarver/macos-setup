@@ -1,5 +1,7 @@
 # macos-setup
 
+**Factory settings --> Daily driver**
+
 ### Contents
 - [Cursor (VS Code) Settings - Python, Typescript/NextJS](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#python)
 - [homebrew](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#homebrew)
@@ -7,16 +9,15 @@
 - [AWS CLIv2](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#aws-cliv2)
 - [ssh keys](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#ssh-keys)
 - [Python](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#python-1)
-- [Node/JavaScript/TypeScript]()
-
+- [Node/JavaScript/TypeScript](https://github.com/aaronmaxcarver/macos-setup/blob/main/README.md#nodejavascripttypescript)
 
 ### Other Docs
 - [initial setup](https://github.com/aaronmaxcarver/macos-setup/blob/main/initial_setup.md)
 - [monthly maintenance](https://github.com/aaronmaxcarver/macos-setup/blob/main/monthly_maintenance.md)
 
-**Factory settings --> Daily driver**
+---
 
-## VS Code Settings
+## Cursor (VS Code) Settings
 - Store in `.vscode/settings.json`
 
 ### Python
