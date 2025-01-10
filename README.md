@@ -122,7 +122,7 @@ brew install --cask \
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
-  - Settings > General > Login Items > add noTunes, Mosaic
+  - Settings > General > Login Items > add noTunes
 
 
 ## Shell setup
