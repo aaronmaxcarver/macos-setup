@@ -101,6 +101,7 @@ brew install \
 brew install --cask \
   android-platform-tools \
   chatgpt \
+  cursor \
   docker \
   discord \
   firefox \
