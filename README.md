@@ -114,8 +114,7 @@ brew install --cask \
   postman \
   slack \
   visual-studio-code \
-  zoom \
-  zulu@17
+  zoom
 ```
 5. Non-brew installs
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
