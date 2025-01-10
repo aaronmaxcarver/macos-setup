@@ -1,0 +1,13 @@
+## Initial Setup
+- Connect mouse and/or keybaord (need wired or Apple brand ones) > Sign in to wifi and Apple ID > Create MacOS user
+- Tinker with the screen(s) settings, mouse settings, etc. as desired
+  - Settings > Displays >
+    - set up dual screen w/ max resolution
+    - Night Shift > Sunset to Sunrise + Color Temperature to full warm
+  - Settings > Mouse >
+    - Tracking Speed > maximum fast, Natural Scrolling > off, Secondary Click > Click Right Side, Smart Zoom > On
+  - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
+  - Settings > Keyboard > Dictation > enable
+  - Settings > Lock Screen >
+    - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
+- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
