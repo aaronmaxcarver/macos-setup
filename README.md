@@ -1,5 +1,19 @@
 # macos-setup
 
+### Contents
+- [Cursor (VS Code) Settings - Python, Typescript/NextJS](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#python)
+- [homebrew](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#homebrew)
+- [Shell setup](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#shell-setup)
+- [AWS CLIv2](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#aws-cliv2)
+- [ssh keys](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#ssh-keys)
+- [Python](https://github.com/aaronmaxcarver/macos-setup/tree/main?tab=readme-ov-file#python-1)
+- [Node/JavaScript/TypeScript]()
+
+
+### Other Docs
+- [initial setup](https://github.com/aaronmaxcarver/macos-setup/blob/main/initial_setup.md)
+- [monthly maintenance](https://github.com/aaronmaxcarver/macos-setup/blob/main/monthly_maintenance.md)
+
 **Factory settings --> Daily driver**
 
 ## VS Code Settings
@@ -260,39 +274,10 @@ cmd + shift + p, Developer: Reload Window
 ```
 
 
-## Node (JavaScript)
+## Node/JavaScript/TypeScript
 - [Node](https://nodejs.org/en) (via `brew` command above)
 - [pnpm](https://pnpm.io/) (via `brew` command above)
 
 
-## Initial Setup
-- Connect mouse and/or keybaord (need wired or Apple brand ones) > Sign in to wifi and Apple ID > Create MacOS user
-- Tinker with the screen(s) settings, mouse settings, etc. as desired
-  - Settings > Displays >
-    - set up dual screen w/ max resolution
-    - Night Shift > Sunset to Sunrise + Color Temperature to full warm
-  - Settings > Mouse >
-    - Tracking Speed > maximum fast, Natural Scrolling > off, Secondary Click > Click Right Side, Smart Zoom > On
-  - Settings > Desktop & Dock > set "Click wallpaper to reveal desktop" to "Only in Stage Manager"
-  - Settings > Keyboard > Dictation > enable
-  - Settings > Lock Screen >
-    - Start Screen Saver when inactive > "For 1 hour", Turn display off when inactive > "For 1 hour", Require password ... > "Immediately"
-- Download Google Chrome > Sign in to Google Account > Visit the bookmark for this page > Sign in to GitHub
 
 
-## Maintenance (~1st day of each month)
-
-### Backups e.g. to Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
-- Chrome bookmarks - go to chrome://bookmarks/ > snowman at top right > export bookmarks > save file > save to backup location(s)
-- Google Contacts - go to [https://contacts.google.com](contacts.google.com) > export button > save file > save to backup location(s)
-- Code - go to a GitHub repo > Code button > Download zip > save to backup location(s)
-
-### Credentials
-- Collect credentials into an encrypted drive and backup
-  - Create a credential folder > add all new credentials
-  - Open the existing encrypted credentials `dmg` > add those files to the new credentials folder
-  - Open `Disk Utility` > File > New Image > Image from folder
-  - Select the new credentials folder > choose Encryption type of "256-bit AES ..." > enter password
-  - Open the new encrypted `dmg` to ensure the password was set correctly
-  - Copy the new `.dmg` to backup location(s)
-  - Delete all plaintext credentials files
