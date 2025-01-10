@@ -105,6 +105,7 @@ brew install --cask \
   discord \
   firefox \
   github \
+  google-chrome \
   mongodb-compass \
   mosaic \
   neo4j \
