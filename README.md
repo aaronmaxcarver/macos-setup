@@ -131,9 +131,6 @@ brew install --cask \
 open ~/.zshrc
 # set:
 ZSH_THEME="agnoster"
-# Add these aliases:
-alias py='python'
-alias ty='typer'
 # Add this to the end of the file:
 # Remove username and hostname 
 prompt_context() {}
