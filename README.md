@@ -84,7 +84,6 @@ brew update
 brew install \
   asitop \
   awscli \
-  bentobox \
   cfn-lint \
   cocoapods \
   expo-orbit \
@@ -113,6 +112,7 @@ brew install --cask \
   github \
   google-chrome \
   mongodb-compass \
+  mosaic \
   neo4j \
   notunes \
   ollama \
