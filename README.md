@@ -79,6 +79,7 @@ brew update
 brew install \
   asitop \
   awscli \
+  bentobox \
   cfn-lint \
   cocoapods \
   expo-orbit \
@@ -116,7 +117,12 @@ brew install --cask \
   visual-studio-code \
   zoom
 ```
-5. Non-brew installs
+5. List installs:
+- Formulae
+  - All - `brew list`
+  - Top-level - `brew leaves`
+- Casks (all are top-level) - `brew list --cask`
+6. Non-brew installs
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
