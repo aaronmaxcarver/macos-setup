@@ -69,6 +69,11 @@
 ```
 
 ## `homebrew`
+0. List current installs:
+- Formulae
+  - Top-level - `brew leaves`
+  - All - `brew list`
+- Casks (all are top-level) - `brew list --cask`
 1. Install [homebrew](https://brew.sh/)
 2. Update homebrew
 ```sh
@@ -117,18 +122,13 @@ brew install --cask \
   visual-studio-code \
   zoom
 ```
-5. List installs:
-- Formulae
-  - All - `brew list`
-  - Top-level - `brew leaves`
-- Casks (all are top-level) - `brew list --cask`
-6. Non-brew installs
+5. Non-brew installs
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
-7. Setup programs
+6. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
   - Settings > General > Login Items > add noTunes
-
+- For BentoBox, go to Settings > Desktop & Dock > turn off these: "Drag windows to scren edges to tile", "Drag windows to menu bar to fill screen", "Hold option key while dragging windows to tile", "Tiled windows have margins"
 
 ## Shell setup
 - Install [oh my zsh](https://ohmyz.sh/#install)
