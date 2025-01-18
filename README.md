@@ -111,6 +111,7 @@ brew install --cask \
   firefox \
   github \
   google-chrome \
+  logitech-camera-settings \
   mongodb-compass \
   mosaic \
   neo4j \
