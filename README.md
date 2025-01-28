@@ -110,6 +110,7 @@ brew install \
   quarto \
   redis \
   rust \
+  stripe/stripe-cli/stripe \
   uv \
   watchman \
   zsh
