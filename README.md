@@ -174,24 +174,52 @@ open ~/.profile
 ```sh
 open ~/.aws
 ```
-- Option 1: SSO (recommended)
-  - requires SSO account creation by AWS admin
-```sh
-aws configure sso
-$ SSO session name: `staging`
-$ SSO Start URL: like this - `https://chrt.awsapps.com/start/#`
-$ SSO region: `us-east-1`
-$ SSO registration scopes: leave as is
-# Browser automatically prompts sign in
-# After sign in, you may see "There are x AWS accounts available to you."
-# Choose the appropriate account, probably "Staging"
-# You may also be prompted to pick a role - choose the appropriate one
-$ CLI default client Region: `us-east-1`
-$ CLI default output format: `json`
-$ CLI profile name: leave as is
+- SSO (requires SSO account creation by AWS admin)
+  - Open `config`
+  - get the config from Aaron - it will look like the below
 ```
-- Option 2: Access Key (not recommended)
-  - this works for any AWS account
+# AWS CLI + SSO Docs - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+# In AWS IAM Identity Center, permission sets are inherited by direct assignment or group membershi
+# For "sso_role_name", specify any permission set that a user has access to
+## {account}--{permission_set}
+
+# Session
+[sso-session chrt]
+sso_start_url = https://chrt.awsapps.com/start/#
+sso_region = us-east-1
+sso_registration_scopes = sso:account:access
+
+# Profiles
+## Dev
+[profile workloads-dev--PowerUserAccess]
+sso_session = chrt
+sso_account_id = REDACTED
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+## Staging
+[profile workloads-staging--PowerUserAccess]
+sso_session = chrt
+sso_account_id = REDACTED
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+## Prod
+[profile workloads-prod--PowerUserAccess]
+sso_session = chrt
+sso_account_id = REDACTED
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+## Sandbox
+[profile workloads-sandbox--PowerUserAccess]
+sso_session = chrt
+sso_account_id = REDACTED
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+```
+- Access Key (not recommended, works for any AWS account, does not require SSO account created by admin)
 ```sh
 # configure
 aws configure
