@@ -143,15 +143,18 @@ brew install --cask \
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
   - Settings > General > Login Items > add noTunes
-- For BentoBox, go to Settings > Desktop & Dock > turn off these: "Drag windows to scren edges to tile", "Drag windows to menu bar to fill screen", "Hold option key while dragging windows to tile", "Tiled windows have margins"
 
 ## Shell setup
 - Install [oh my zsh](https://ohmyz.sh/#install)
-```
+```sh
 open ~/.zshrc
-# set:
+```
+- in `.zshrc`, set:
+```sh
 ZSH_THEME="agnoster"
-# Add this to the end of the file:
+```
+- Add this to the end of the file:
+```sh
 # Remove username and hostname 
 prompt_context() {}
 ```
