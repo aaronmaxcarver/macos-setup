@@ -176,10 +176,10 @@ open ~/.aws
 ```
 - SSO (requires SSO account creation by AWS admin)
   - Open `config`
-  - get the config from Aaron - it will look like the below
+  - Get the config from Aaron - it will look like the below:
 ```
 # AWS CLI + SSO Docs - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
-# In AWS IAM Identity Center, permission sets are inherited by direct assignment or group membershi
+# In AWS IAM Identity Center, permission sets are inherited by direct assignment or group membership
 # For "sso_role_name", specify any permission set that a user has access to
 ## {account}--{permission_set}
 
