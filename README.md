@@ -311,9 +311,9 @@ aws sts get-caller-identity
 # find the path to the kernel spec file
 jupyter kernelspec list
 # open that file and add env vars for PYTHONPATH and ENVIRONMENT, e.g.:
-"env": {
-  "PYTHONPATH": "/Users/aaronmaxcarver/GitHub/aaron-repo-name/",
-  "ENVIRONMENT": "DEV"
+  "env": {
+    "PYTHONPATH": "/Users/aaron/code/pai",
+    "ENVIRONMENT": "LOCAL"
   },
 # Rename the kernel for convenience, e.g.:
 "display_name": "aaron-repo-name",
