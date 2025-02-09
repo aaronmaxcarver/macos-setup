@@ -310,13 +310,12 @@ aws sts get-caller-identity
 ```sh
 # find the path to the kernel spec file
 jupyter kernelspec list
-# open that file and add env vars for PYTHONPATH and ENVIRONMENT, e.g.:
+# Add display_name, PYTHONPATH, and ENVIRONMENT, e.g.:
+  "display_name": "aaron-repo-name",
   "env": {
     "PYTHONPATH": "/Users/aaron/code/pai",
     "ENVIRONMENT": "LOCAL"
   },
-# Rename the kernel for convenience, e.g.:
-"display_name": "aaron-repo-name",
 # After a change, reload the window. Sometimes VS Code just won't sync the change for a bit. 
 cmd + shift + p, Developer: Reload Window
 ```
