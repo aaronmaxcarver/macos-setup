@@ -137,9 +137,17 @@ brew install --cask \
   visual-studio-code \
   zoom
 ```
-5. Non-brew installs
+5. brew taps
+- MongoDB
+  - tap - [github.com/mongodb/homebrew-brew](https://github.com/mongodb/homebrew-brew)
+  - [Database Tools docs](https://www.mongodb.com/docs/database-tools/)
+```sh
+brew tap mongodb/brew
+brew install mongodb-database-tools
+```
+6. Non-brew installs
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
-6. Setup programs
+7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
   - Settings > General > Login Items > add noTunes
