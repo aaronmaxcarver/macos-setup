@@ -1,5 +1,7 @@
 # macos-setup
 
+- nothing at all - FEEFE3DB-D11C7667-E9B8128E-75761834-BD2396ED
+
 **Factory settings --> Daily driver**
 
 ### Contents
