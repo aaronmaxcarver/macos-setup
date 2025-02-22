@@ -121,6 +121,7 @@ brew install \
 ```sh
 brew install --cask \
   android-platform-tools \
+  claude \
   cursor \
   docker \
   discord \
