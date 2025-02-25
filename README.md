@@ -129,6 +129,7 @@ brew install \
   expo-orbit \
   fastlane \
   ffmpeg \
+  gh \
   graphviz \
   htop \
   mongodb-atlas-cli \
