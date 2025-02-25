@@ -158,6 +158,7 @@ brew install --cask \
   mongodb-compass \
   mosaic \
   neo4j \
+  nordvpn \
   notunes \
   ollama \
   pgadmin4 \
