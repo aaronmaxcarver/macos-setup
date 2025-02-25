@@ -136,6 +136,7 @@ brew install \
   pnpm \
   quarto \
   redis \
+  ripgrep \
   rust \
   stripe/stripe-cli/stripe \
   uv \
