@@ -155,7 +155,6 @@ brew install --cask \
   firefox \
   github \
   google-chrome \
-  insomnia \
   logitech-camera-settings \
   mongodb-compass \
   mosaic \
