@@ -177,6 +177,7 @@ brew tap mongodb/brew
 brew install mongodb-database-tools
 ```
 6. Non-brew installs
+- Xcode From Apple App Store
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
