@@ -188,7 +188,7 @@ brew install mongodb-database-tools
     - then when updating `.zshrc`, put `JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home` just below `# User configuration`
     - then reopen the terminal or run `source ~/.zshrc`, then run `echo $JAVA_HOME` and expect the output to match the `.zshrc` value, e.g. `/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home`
   - Android Studio - install via homebrew script above
-    - ...
+    - helper for checking the path after adding Android Studio stuff `echo $PATH | tr ":" "\n"`
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
 - Set Login Items
