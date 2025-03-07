@@ -148,6 +148,7 @@ brew install \
 ```sh
 brew install --cask \
   android-platform-tools \
+  android-studio \
   claude \
   cursor \
   docker \
