@@ -179,8 +179,10 @@ brew tap mongodb/brew
 brew install mongodb-database-tools
 ```
 6. Non-brew installs
-- Xcode From Apple App Store
+- Install Xcode From Apple App Store
   - after install, open Xcode and add Platform Support for iOS, e.g "iOS 18.2, 8.72 GB"
+  - run `xcode-select -p` to check the install path, expect a response like `/Library/Developer/CommandLineTools`
+  - open Xcode and in the menu bar select "Xcode" > "Settings" > "Locations" tab. Now in the "Command Line Tools" dropdown, even if there's a value, click it again (WTF!?) and authenticate to enable it. 
 - Android Studio per https://reactnative.dev/docs/set-up-your-environment
 7. Setup programs
 - Open each program, add to dock, log in, configure settings, etc.
