@@ -166,7 +166,8 @@ brew install --cask \
   postman \
   slack \
   visual-studio-code \
-  zoom
+  zoom \
+  zulu@17
 ```
 5. brew taps
 - MongoDB
