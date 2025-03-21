@@ -165,6 +165,7 @@ brew install --cask \
   ollama \
   pgadmin4 \
   postman \
+  qgis \
   slack \
   visual-studio-code \
   zoom \
