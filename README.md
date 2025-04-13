@@ -140,6 +140,7 @@ brew install \
   ripgrep \
   rust \
   stripe/stripe-cli/stripe \
+  temporal \
   uv \
   watchman \
   zsh
