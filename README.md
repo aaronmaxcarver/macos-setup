@@ -135,7 +135,6 @@ brew install \
   mongodb-atlas-cli \
   node \
   pnpm \
-  quarto \
   redis \
   ripgrep \
   rust \
