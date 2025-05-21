@@ -126,10 +126,12 @@ brew install \
   awscli \
   cfn-lint \
   cocoapods \
+  dopplerhq/cli/doppler \
   expo-orbit \
   fastlane \
   ffmpeg \
   gh \
+  gnupg \
   graphviz \
   htop \
   mongodb-atlas-cli \
