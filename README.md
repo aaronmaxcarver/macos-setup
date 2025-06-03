@@ -45,7 +45,57 @@
     "editor.formatOnSave": true
   },
   "workbench.activityBar.orientation": "vertical",
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "better-comments.tags": [
+    {
+      "tag": "dev",
+      "color": "#542F00", // Dark brown
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#FFEB3B", // Bright yellow
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#1565C0", // Deep blue
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#90CAF9", // Medium blue
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "note",
+      "color": "#42A5F5", // Bright blue
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "tmp",
+      "color": "#8D6E63", // Warm brown
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#EFEBE9", // Very light taupe
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "working",
+      "color": "#1B5E20", // Dark green
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#A5D6A7", // Light green
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "python.testing.pytestArgs": ["app"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
 ```
 
