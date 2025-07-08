@@ -218,6 +218,7 @@ brew install --cask \
   pgadmin4 \
   postman \
   qgis \
+  reactotron \
   slack \
   visual-studio-code \
   zoom \
