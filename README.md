@@ -184,7 +184,6 @@ brew install \
   gnupg \
   graphviz \
   htop \
-  maestro \
   mongodb-atlas-cli \
   node \
   pnpm \
@@ -196,6 +195,10 @@ brew install \
   uv \
   watchman \
   zsh
+```
+```sh
+brew tap mobile-dev-inc/tap
+brew install maestro
 ```
 4. Install [brew casks](https://formulae.brew.sh/cask/)
 ```sh
