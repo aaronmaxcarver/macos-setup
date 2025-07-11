@@ -184,6 +184,7 @@ brew install \
   gnupg \
   graphviz \
   htop \
+  maestro \
   mongodb-atlas-cli \
   node \
   pnpm \
