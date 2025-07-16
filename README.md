@@ -194,6 +194,7 @@ brew install \
   temporal \
   uv \
   watchman \
+  yarn \
   zsh
 ```
 ```sh
