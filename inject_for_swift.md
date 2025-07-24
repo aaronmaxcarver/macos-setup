@@ -3,6 +3,15 @@
 - it's a package which allows hot-reloading when developing in Swift + XCode + Simulator 
   - it's better than using XCode's preview canvas
 
+- NOTE - WIP, not confirmed to work -
+
+### Checklist for daily use
+- InjectionIII is in "File Watcher" mode with the correct project selected
+- Inject is a package dependency of the Swift project
+- Swift project Build Settings Other Linker Flags Debug is "-Xlinker -interposable"
+- Swift project entry file has `import Inject`
+- ... 
+
 ### Set up
 - The instructions in the repo readme are not clear so I'm writing up steps I can reference in the future
 - Prereqs:
@@ -15,15 +24,31 @@
   - Add `Inject` as a dependency - open the project in XCode > "File" > "Add Package Dependencies..." > in the search bar in the top right of the menu paste `https://github.com/krzysztofzablocki/Inject`
  
 ```swift
+import SwiftUI
+import Inject
+
 struct ContentView: View {
     @ObserveInjection var inject
-
+    
     var body: some View {
-    ...
-    .enableInjection()
-  }
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+        .enableInjection()
+    }
+}
+
+#Preview {
+    ContentView()
 }
 ```
+
+### Other
+- Helpful video - https://www.youtube.com/watch?v=kk1DnjyLpUE
 
 
 ### Screenshots
