@@ -1,0 +1,15 @@
+## Inject
+- packge repo - [Inject](https://github.com/krzysztofzablocki/Inject)
+- it's a package which allows hot-reloading when developing in Swift + XCode + Simulator 
+  - it's better than using XCode's preview canvas
+
+### Set up
+- The instructions in the repo readme are not clear so I'm writing up steps I can reference in the future
+- Prereqs:
+  - XCode, Swift project, Simulator and the ability to use these together 
+- One time per machine:
+  - TODO 
+- Per project:
+  - TODO 
+- Per file:
+  - TODO
