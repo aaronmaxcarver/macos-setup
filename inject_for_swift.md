@@ -9,6 +9,7 @@
 - InjectionIII is in "File Watcher" mode with the correct project selected
 - Inject is a package dependency of the Swift project
 - Swift project Build Settings Other Linker Flags Debug is "-Xlinker -interposable"
+- The target within the project > General > Frameworks, Libraries, and Embedded Content > contains `Inject`
 - Swift project entry file has `import Inject`
 - ... 
 
