@@ -10,6 +10,7 @@
 - Inject is a package dependency of the Swift project
 - The target within the project > General > Frameworks, Libraries, and Embedded Content > contains `Inject`
 - Swift project Build Settings Other Linker Flags Debug is "-Xlinker -interposable"
+- Build Settings > User-Defined contains `EMIT_FRONTEND_COMMAND_LINES` value of `YES`
 - The code uses `@ObserveInjection var inject` and `.enableInjection()`
 
 ### Example file
@@ -49,7 +50,9 @@ struct ContentView: View {
   - Select the project in XCode > Build Settings > Search "Other Linker" > Set "Debug" string to `-Xlinker -interposable`
 - Per project:
   - Add `Inject` as a dependency - open the project in XCode > "File" > "Add Package Dependencies..." > in the search bar in the top right of the menu paste `https://github.com/krzysztofzablocki/Inject`
+  - In Build Settings click "+" and "Add User Defined Setting"
 - Then follow the workflow integration part [here](https://github.com/krzysztofzablocki/Inject?tab=readme-ov-file#workflow-integration)
+- 
 
 ### Other
 - Helpful video - https://www.youtube.com/watch?v=kk1DnjyLpUE
