@@ -10,7 +10,7 @@
 - Inject is a package dependency of the Swift project
 - The target within the project > General > Frameworks, Libraries, and Embedded Content > contains `Inject`
 - Swift project Build Settings Other Linker Flags Debug is "-Xlinker -interposable"
-- ... 
+- The code uses `@ObserveInjection var inject` and `.enableInjection()`
 
 ### Example file
 
