@@ -19,12 +19,8 @@
 #endif
 ```
 - The view to hot reload uses `@ObserveInjection var inject` and `.enableInjection()`
-
-### Example file
-
 ```swift
 import SwiftUI
-import Inject
 
 struct ContentView: View {
     @ObserveInjection var inject
@@ -34,7 +30,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, world")
         }
         .padding()
         .enableInjection()
