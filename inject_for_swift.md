@@ -11,7 +11,14 @@
 - The target within the project > General > Frameworks, Libraries, and Embedded Content > contains `Inject`
 - Swift project Build Settings Other Linker Flags Debug is "-Xlinker -interposable"
 - Build Settings > User-Defined contains `EMIT_FRONTEND_COMMAND_LINES` value of `YES`
-- The code uses `@ObserveInjection var inject` and `.enableInjection()`
+- An `InjectionSetup.swift` file exports the `Inject` import:
+```swift
+#if DEBUG
+/// Makes Inject available in each file without using `import Inject` at the top of each file
+@_exported import Inject
+#endif
+```
+- The view to hot reload uses `@ObserveInjection var inject` and `.enableInjection()`
 
 ### Example file
 
