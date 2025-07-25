@@ -50,7 +50,7 @@ struct ContentView: View {
   - Select the project in XCode > Build Settings > Search "Other Linker" > Set "Debug" string to `-Xlinker -interposable`
 - Per project:
   - Add `Inject` as a dependency - open the project in XCode > "File" > "Add Package Dependencies..." > in the search bar in the top right of the menu paste `https://github.com/krzysztofzablocki/Inject`
-  - In Build Settings click "+" and "Add User Defined Setting"
+  - In Build Settings click "+" and "Add User Defined Setting" with name of `EMIT_FRONTEND_COMMAND_LINES` and value of `YES`
 - Then follow the workflow integration part [here](https://github.com/krzysztofzablocki/Inject?tab=readme-ov-file#workflow-integration)
 - 
 
