@@ -1,4 +1,10 @@
-## Inject
+## swiftformat
+- package repo and readme - https://github.com/nicklockwood/SwiftFormat
+- for active development - use the XCode source editor extension
+  - suggested keybinding: XCode > Settings > Key Bindings > filter by "format" > "SwiftFormat Format File" > Shift + CMD + S > filter by "Duplicate" > resolve conflict by setting that to Ctrl + Shift + S
+- for CI/CD - 
+
+## Inject (for hot reloading in simulator)
 - packge repo - [Inject](https://github.com/krzysztofzablocki/Inject)
 - it's a package which allows hot-reloading when developing in Swift + XCode + Simulator 
   - it's better than using XCode's preview canvas
