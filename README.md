@@ -191,6 +191,7 @@ brew install \
   ripgrep \
   rust \
   stripe/stripe-cli/stripe \
+  swiftformat \
   temporal \
   uv \
   watchman \
