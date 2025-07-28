@@ -177,7 +177,6 @@ brew install \
   cfn-lint \
   cocoapods \
   dopplerhq/cli/doppler \
-  expo-orbit \
   fastlane \
   ffmpeg \
   gh \
@@ -224,7 +223,7 @@ brew install --cask \
   pgadmin4 \
   postman \
   qgis \
-  reactotron \
+  swiftformat-for-xcode \
   slack \
   visual-studio-code \
   zoom \
