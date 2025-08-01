@@ -2,7 +2,7 @@
 
 ### Backups e.g. to Google Drive [Backups folder](https://drive.google.com/drive/u/0/folders/1ZPrKNiOxw9zRAG6sz0WC9L2u2Um3CaLq)
 - Chrome bookmarks - go to chrome://bookmarks/ > snowman at top right > export bookmarks > save file > save to backup location(s)
-- Google Contacts - go to [https://contacts.google.com](contacts.google.com) > export button > save file > save to backup location(s)
+- Google Contacts - go to [contacts.google.com](https://contacts.google.com) > export button > save file > save to backup location(s)
 - Code - go to a GitHub repo > Code button > Download zip > save to backup location(s)
 
 ### Credentials
