@@ -185,6 +185,7 @@ brew install \
   htop \
   mongodb-atlas-cli \
   node \
+  openapi-generator \
   pnpm \
   redis \
   ripgrep \
