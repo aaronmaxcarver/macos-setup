@@ -177,7 +177,6 @@ brew install \
   cfn-lint \
   cocoapods \
   dopplerhq/cli/doppler \
-  fastlane \
   ffmpeg \
   gh \
   gnupg \
