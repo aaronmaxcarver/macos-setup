@@ -186,8 +186,10 @@ brew install \
   node \
   openapi-generator \
   pnpm \
+  rbenv \
   redis \
   ripgrep \
+  ruby-build \
   rust \
   stripe/stripe-cli/stripe \
   swiftformat \
