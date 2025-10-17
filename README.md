@@ -196,6 +196,7 @@ brew install \
   temporal \
   uv \
   watchman \
+  xcode-build-server \
   yarn \
   zsh
 ```
