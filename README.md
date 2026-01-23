@@ -182,6 +182,7 @@ brew install \
   gnupg \
   graphviz \
   htop \
+  libmagic \
   mongodb-atlas-cli \
   node \
   openapi-generator \
