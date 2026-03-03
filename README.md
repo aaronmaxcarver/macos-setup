@@ -182,6 +182,7 @@ brew install \
   gnupg \
   graphviz \
   htop \
+  just \
   libmagic \
   mongodb-atlas-cli \
   node \
