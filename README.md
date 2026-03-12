@@ -434,7 +434,6 @@ uv run jupyter kernelspec list
   "display_name": "chrt-fastapi",
   "env": {
     "PYTHONPATH": "/Users/aaron/github/chrt-inc/chrt-fastapi",
-    "ENVIRONMENT": "LOCAL"
   },
   "language": "python",
   "metadata": {
